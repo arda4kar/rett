@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doktor Filtreleme</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+    h1 { font-size: 24px; margin-bottom: 20px; }
+    .filters { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
+    select { padding: 8px; border-radius: 8px; border: 1px solid #ccc; min-width: 150px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; }
+    .card { background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .card .name { font-weight: bold; font-size: 18px; }
+    .card .hospital { color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Doktor Filtreleme</h1>
+  <div class="filters">
+    <select id="cityFilter"><option value="">Şehir</option></select>
+    <select id="branchFilter"><option value="">Branş</option></select>
+    <select id="typeFilter"><option value="">Tür</option></select>
+  </div>
+  <div id="doctorList" class="grid"></div>
+  <script>
+    const doctors = [{"name": "Prof.dr Bülent Kara", "branch": "Çocuk Nörolojisi", "city": "Kocaeli", "type": "Devlet", "hospital": "Kocaeli üniversitesi Araştırma Ve Uygulama hastanesi"}, {"name": "Sanem Keskin Yılmaz", "branch": "Çocuk Nörolojisi", "city": "İzmir", "type": "Devlet", "hospital": "Ege Üniversitesi Hastanesi"}, {"name": "Dr fitnas ulug", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Devlet", "hospital": "Prof dr cemil tşçıoğlu şehir hastanesi"}, {"name": "Semra saygın", "branch": "Çocuk Nörolojisi", "city": "Adana", "type": "Özel", "hospital": "Çukurova başkent hastanesi"}, {"name": "Serkan kırma", "branch": "Çocuk Nörolojisi", "city": "Elazığ", "type": "Devlet", "hospital": "Fethi Sekin Şehir Hastanesi"}, {"name": "Ergun Nacarküçük", "branch": "Çocuk Nörolojisi", "city": "Bursa", "type": "Özel", "hospital": "Özel muayenesi"}, {"name": "Hasan Çelik", "branch": "Çocuk Nörolojisi", "city": "Diyarbakır", "type": "Devlet", "hospital": "Diyarbakır çocuk hastanesi"}, {"name": "Burak tatlı", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Özel", "hospital": "Zatay klinik özel klinik"}, {"name": "Safiye Güneş Sağer", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Devlet", "hospital": "Kartal Lütfi Kırdar şehir Hastanesi"}, {"name": "Hasan tekgül", "branch": "Çocuk Nörolojisi", "city": "İzmir", "type": "Özel", "hospital": "Ege üniversitesi hocası ancak sadece özel muayenede bakıyor"}, {"name": "Prof. Dr. Ayşin Dervent", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Özel", "hospital": "Caferağa, Gen. Asım Gündüz Cd. No.81/2, 34710 Kadıköy"}, {"name": "Özgür duman", "branch": "Çocuk Nörolojisi", "city": "Antalya", "type": "Özel", "hospital": "Özel"}, {"name": "Hülya kayserili", "branch": "Tıbbi Genetik", "city": "İstanbul", "type": "Özel", "hospital": "Koç uni"}, {"name": "Adnan yüksel", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Özel", "hospital": "Biruni hastanesi"}, {"name": "Candan gürses yrtişkin norolog", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Özel", "hospital": "Koç uni"}, {"name": "CAHİDE BULUT ASLAN", "branch": "Çocuk Nörolojisi", "city": "Batman", "type": "Özel", "hospital": "BATMAN MEDİCAL POİNT"}, {"name": "Cengiz havalı", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Devlet", "hospital": "Çam sakura"}, {"name": "Alper gezdirici", "branch": "Tıbbi Genetik", "city": "İstanbul", "type": "Devlet", "hospital": "Başakşehir çam ve sakura şehir hastanesi"}, {"name": "Tamer çelik", "branch": "Çocuk Nörolojisi", "city": "Adana", "type": "Devlet", "hospital": "Adana şehir hastanesi"}, {"name": "Haydar Ali tademir", "branch": "Çocuk Nörolojisi", "city": "Samsun", "type": "Özel", "hospital": "OMÜ emekli"}, {"name": "Ayşegül danış", "branch": "Çocuk Nörolojisi", "city": "Bolu", "type": "Devlet", "hospital": "Abant İzzet Baysal üniversştesi Eğitim araştırma hastanesi"}, {"name": "Pınar Aydın Öztürk", "branch": "Çocuk beyin cerrahı", "city": "Diyarbakır", "type": "Devlet", "hospital": "Dicle üniversitesi hastanesi"}, {"name": "İhsan çaça", "branch": "Çocuk göz doktoru", "city": "Diyarbakır", "type": "Özel", "hospital": "Diyarlife hastanesi"}, {"name": "Ali Cansu", "branch": "Çocuk Nörolojisi", "city": "Trabzon", "type": "Özel", "hospital": "K.T.Ü"}, {"name": "Seyit Ali Güçlü", "branch": "Ortopedi ve Travmatoloji", "city": "Kocaeli", "type": "Devlet", "hospital": "Kocaeli şehir hastanesi"}, {"name": "Prof. Dr. Mehmet Borazan", "branch": "Göz hastalıkları", "city": "Kocaeli", "type": "Özel", "hospital": "Özel çağın göz hastalıkları hastanesi"}, {"name": "Recep Polat", "branch": "Çocuk endokrinoloji", "city": "Sakarya", "type": "Devlet", "hospital": "Seah"}, {"name": "Prof. Dr. Serkan Demir", "branch": "Nöroloji", "city": "İstanbul", "type": "Devlet", "hospital": "İlhan Varank"}, {"name": "Abidin Erdal", "branch": "Epilepsi kliniği, nöroloji", "city": "Ankara", "type": "Devlet", "hospital": "Bilkent şehir hastanesi"}, {"name": "Abdülmelik Doğan", "branch": "Pediatri (Çocuk Sağlığı ve Hastalıkları)", "city": "Diyarbakır", "type": "Özel", "hospital": "Özel Sultan hastanesi"}, {"name": "Pakize Cennetoğlu", "branch": "Çocuk Nörolojisi", "city": "Erzurum", "type": "Devlet", "hospital": "Erzurum Devlet Hastanesi"}, {"name": "Sezai Arslan", "branch": "Çocuk Metobolizması", "city": "Erzurum", "type": "Devlet", "hospital": "Erzurum Şehir Hastanesi"}, {"name": "Özge Beyza Gündoğdu", "branch": "Tıbbi Genetik", "city": "Erzurum", "type": "Devlet", "hospital": "Erzurum Şehir Hastanesi"}, {"name": "Hasan Türkmen", "branch": "Çocuk Kardiyolojisi", "city": "Erzurum", "type": "Devlet", "hospital": "Erzurum Şehir Hastanesi"}, {"name": "Dr Fatma karataş", "branch": "Noroleji", "city": "Amasya", "type": "Devlet", "hospital": "Amasya üniversitesi sabuncuoğlu Şerafettin eğitim ve araştırma hastanesi"}, {"name": "Betül Kılıç", "branch": "Çocuk Nörolojisi", "city": "İstanbul", "type": "Özel", "hospital": "Medipol mega hastanesi"}, {"name": "Gürkan gürbüz", "branch": "Çocuk Nörolojisi", "city": "Tekirdağ", "type": "Özel", "hospital": "Özel klinik"}];
+
+    const cityFilter = document.getElementById("cityFilter");
+    const branchFilter = document.getElementById("branchFilter");
+    const typeFilter = document.getElementById("typeFilter");
+    const doctorList = document.getElementById("doctorList");
+
+    const unique = (key) => [...new Set(doctors.map(d => d[key]))];
+
+    function populateFilters() {
+      unique("city").forEach(c => cityFilter.innerHTML += `<option value="${c}">${c}</option>`);
+      unique("branch").forEach(b => branchFilter.innerHTML += `<option value="${b}">${b}</option>`);
+      unique("type").forEach(t => typeFilter.innerHTML += `<option value="${t}">${t}</option>`);
+    }
+
+    function renderDoctors() {
+      const city = cityFilter.value;
+      const branch = branchFilter.value;
+      const type = typeFilter.value;
+
+      const filtered = doctors.filter(d =>
+        (!city || d.city === city) &&
+        (!branch || d.branch === branch) &&
+        (!type || d.type === type)
+      );
+
+      doctorList.innerHTML = filtered.map(d => `
+        <div class="card">
+          <div class="name">${d.name}</div>
+          <div>${d.branch}</div>
+          <div>${d.city} - ${d.type}</div>
+          <div class="hospital">${d.hospital}</div>
+        </div>
+      `).join("");
+    }
+
+    [cityFilter, branchFilter, typeFilter].forEach(el => el.addEventListener("change", renderDoctors));
+
+    populateFilters();
+    renderDoctors();
+  </script>
+</body>
+</html>
