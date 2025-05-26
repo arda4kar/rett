@@ -1,0 +1,415 @@
+[
+  {
+    "name": "Prof. Dr. Bülent Kara",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Kocaeli",
+    "type": "Devlet",
+    "hospital": "Kocaeli üniversitesi Araştırma Ve Uygulama hastanesi"
+  },
+  {
+    "name": "Sanem Keskin Yılmaz",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İzmir",
+    "type": "Devlet",
+    "hospital": "Ege Üniversitesi Hastanesi"
+  },
+  {
+    "name": "Dr. Fitnas Uluğ",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Devlet",
+    "hospital": "Prof dr cemil tşçıoğlu şehir hastanesi"
+  },
+  {
+    "name": "Semra Saygın",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Adana",
+    "type": "Özel",
+    "hospital": "Çukurova başkent hastanesi"
+  },
+  {
+    "name": "Serkan Kırma",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Elazığ",
+    "type": "Devlet",
+    "hospital": "Fethi Sekin Şehir Hastanesi"
+  },
+  {
+    "name": "Ergun Nacarküçük",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Bursa",
+    "type": "Özel",
+    "hospital": "Özel muayenesi"
+  },
+  {
+    "name": "Hasan Çelik",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Diyarbakır",
+    "type": "Devlet",
+    "hospital": "Diyarbakır çocuk hastanesi"
+  },
+  {
+    "name": "Burak Tatlı",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Zatay klinik özel klinik"
+  },
+  {
+    "name": "Safiye Güneş Sağer",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Devlet",
+    "hospital": "Kartal Lütfi Kırdar şehir Hastanesi"
+  },
+  {
+    "name": "Prof. Dr. Ayşin Dervent",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Caferağa, Gen. Asım Gündüz Cd. No.81/2, 34710 Kadıköy"
+  },
+  {
+    "name": "Özgür Duman",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Antalya",
+    "type": "Özel",
+    "hospital": "Özel"
+  },
+  {
+    "name": "Hülya Kayserili",
+    "branch": "Tıbbi Genetik",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Koç uni"
+  },
+  {
+    "name": "Adnan Yüksel",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Biruni hastanesi"
+  },
+  {
+    "name": "Candan Gürses (Yetişkin Nörolog)",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Koç uni"
+  },
+  {
+    "name": "Cahide Bulut Aslan",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Batman",
+    "type": "Özel",
+    "hospital": "BATMAN MEDİCAL POİNT"
+  },
+  {
+    "name": "Cengiz Havalı",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Devlet",
+    "hospital": "Çam sakura"
+  },
+  {
+    "name": "Alper Gezdirici",
+    "branch": "Tıbbi Genetik",
+    "city": "İstanbul",
+    "type": "Devlet",
+    "hospital": "Başakşehir çam ve sakura şehir hastanesi"
+  },
+  {
+    "name": "Tamer Çelik",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Adana",
+    "type": "Devlet",
+    "hospital": "Adana şehir hastanesi"
+  },
+  {
+    "name": "Haydar Ali Tademir",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Samsun",
+    "type": "Özel",
+    "hospital": "OMÜ emekli"
+  },
+  {
+    "name": "Ayşegül Danış",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Bolu",
+    "type": "Devlet",
+    "hospital": "Abant İzzet Baysal üniversştesi Eğitim araştırma hastanesi"
+  },
+  {
+    "name": "Pınar Aydın Öztürk",
+    "branch": "Çocuk beyin cerrahı",
+    "city": "Diyarbakır",
+    "type": "Devlet",
+    "hospital": "Dicle üniversitesi hastanesi"
+  },
+  {
+    "name": "İhsan Çaça",
+    "branch": "Çocuk göz doktoru",
+    "city": "Diyarbakır",
+    "type": "Özel",
+    "hospital": "Diyarlife hastanesi"
+  },
+  {
+    "name": "Ali Cansu",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Trabzon",
+    "type": "Özel",
+    "hospital": "K.T.Ü"
+  },
+  {
+    "name": "Seyit Ali Güçlü",
+    "branch": "Ortopedi ve Travmatoloji",
+    "city": "Kocaeli",
+    "type": "Devlet",
+    "hospital": "Kocaeli şehir hastanesi"
+  },
+  {
+    "name": "Prof. Dr. Mehmet Borazan",
+    "branch": "Göz hastalıkları",
+    "city": "Kocaeli",
+    "type": "Özel",
+    "hospital": "Özel çağın göz hastalıkları hastanesi"
+  },
+  {
+    "name": "Recep Polat",
+    "branch": "Çocuk endokrinoloji",
+    "city": "Sakarya",
+    "type": "Devlet",
+    "hospital": "Seah"
+  },
+  {
+    "name": "Prof. Dr. Serkan Demir",
+    "branch": "Nöroloji",
+    "city": "İstanbul",
+    "type": "Devlet",
+    "hospital": "İlhan Varank"
+  },
+  {
+    "name": "Abidin Erdal",
+    "branch": "Epilepsi kliniği, nöroloji",
+    "city": "Ankara",
+    "type": "Devlet",
+    "hospital": "Bilkent şehir hastanesi"
+  },
+  {
+    "name": "Abdülmelik Doğan",
+    "branch": "Pediatri (Çocuk Sağlığı ve Hastalıkları)",
+    "city": "Diyarbakır",
+    "type": "Özel",
+    "hospital": "Özel Sultan hastanesi"
+  },
+  {
+    "name": "Pakize Cennetoğlu",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Erzurum",
+    "type": "Devlet",
+    "hospital": "Erzurum Devlet Hastanesi"
+  },
+  {
+    "name": "Sezai Arslan",
+    "branch": "Çocuk Metobolizması",
+    "city": "Erzurum",
+    "type": "Devlet",
+    "hospital": "Erzurum Şehir Hastanesi"
+  },
+  {
+    "name": "Özge Beyza Gündoğdu",
+    "branch": "Tıbbi Genetik",
+    "city": "Erzurum",
+    "type": "Devlet",
+    "hospital": "Erzurum Şehir Hastanesi"
+  },
+  {
+    "name": "Hasan Türkmen",
+    "branch": "Çocuk Kardiyolojisi",
+    "city": "Erzurum",
+    "type": "Devlet",
+    "hospital": "Erzurum Şehir Hastanesi"
+  },
+  {
+    "name": "Dr. Fatma Karataş",
+    "branch": "Noroleji",
+    "city": "Amasya",
+    "type": "Devlet",
+    "hospital": "Amasya üniversitesi sabuncuoğlu Şerafettin eğitim ve araştırma hastanesi"
+  },
+  {
+    "name": "Betül Kılıç",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Medipol mega hastanesi"
+  },
+  {
+    "name": "Gürkan Gürbüz",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Tekirdağ",
+    "type": "Özel",
+    "hospital": "Özel klinik"
+  },
+  {
+    "name": "Hanifi Uçpınar",
+    "branch": "Ortopedi ve Travmatoloji",
+    "city": "Bursa",
+    "type": "Özel",
+    "hospital": "Medikal park hastanesi"
+  },
+  {
+    "name": "Prof. Dr. Hasan Tekgül",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İzmir",
+    "type": "Özel",
+    "hospital": "Özel muayehane"
+  },
+  {
+    "name": "Ceren Günbey",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Ankara",
+    "type": "Devlet",
+    "hospital": "Hacettepe üniversitesi eğitim ve  araştırma hastanesi"
+  },
+  {
+    "name": "Sema Bozkaya Yılmaz",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Bursa",
+    "type": "Devlet",
+    "hospital": "Bursa şehir hastanesi"
+  },
+  {
+    "name": "Zeliha Demirtaş",
+    "branch": "Çocuk Gastroenterolojisi",
+    "city": "Bursa",
+    "type": "Devlet",
+    "hospital": "Dört Çelik çocuk hastanesi"
+  },
+  {
+    "name": "Mehbare Özkan",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "MEDİCAL PARK PENDİK"
+  },
+  {
+    "name": "Ali Öksel",
+    "branch": "Pediatri (Çocuk Sağlığı ve Hastalıkları)",
+    "city": "Kocaeli",
+    "type": "Özel",
+    "hospital": "Medical park Kocaeli"
+  },
+  {
+    "name": "Dr. Ayşe Sena Yüksel Anık",
+    "branch": "Çocuk ve Ergen Psikiyatrisi",
+    "city": "Bursa",
+    "type": "Devlet",
+    "hospital": "Yüksek ihtisas ve araştırma hastanesi"
+  },
+  {
+    "name": "Prof. Dr. Meral Topcu",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Ankara",
+    "type": "Özel",
+    "hospital": "Barbaros, Abay Kunanbay Cd. No:7 D:4, 06700 Çankaya/Ankara"
+  },
+  {
+    "name": "Uluç Yis",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İzmir",
+    "type": "Devlet",
+    "hospital": "Dokuzeylul universitesi"
+  },
+  {
+    "name": "Serkan Kırık",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Elazığ",
+    "type": "Devlet",
+    "hospital": "Elazığ FETHİ SEKİN şehir hastanesi"
+  },
+  {
+    "name": "Prof. Dr. İlknur Erol",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Adana",
+    "type": "Özel",
+    "hospital": "Kendi kliniği var"
+  },
+  {
+    "name": "Dr. Ayfer Arduç Akçay",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Koç üniversitesi hastanesi"
+  },
+  {
+    "name": "Gül Çakmak Yalçın",
+    "branch": "Nöroloji",
+    "city": "Ankara",
+    "type": "Devlet",
+    "hospital": "Hacettepe Üniversitesi Hastanesi"
+  },
+  {
+    "name": "Hacı Bekir Bolat",
+    "branch": "Pediatri (Çocuk Sağlığı ve Hastalıkları)",
+    "city": "Giresun",
+    "type": "Özel",
+    "hospital": "Gıresun Görele Op.dr.ergun Özdemır Devlet Hastanesi"
+  },
+  {
+    "name": "Betül Diler Durgut",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Giresun",
+    "type": "Devlet",
+    "hospital": "Giresun üniversitesi Karun doğum ve çocuk hastalıkları eğitim ve araştırma hastahanesi"
+  },
+  {
+    "name": "Sefer Kumandaş",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Kayseri",
+    "type": "Özel",
+    "hospital": "Özel klinik"
+  },
+  {
+    "name": "Merve Yavuz",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Gaziantep",
+    "type": "Devlet",
+    "hospital": "Gaziantep şehir hastanesinde"
+  },
+  {
+    "name": "Taner Sezer",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Ankara",
+    "type": "Özel",
+    "hospital": "Başkent üniversitesi"
+  },
+  {
+    "name": "Esra Sarıgeçili",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Adana",
+    "type": "Devlet",
+    "hospital": "Adana Şehir Hastanesi"
+  },
+  {
+    "name": "Ünsal Yılmaz",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İzmir",
+    "type": "Devlet",
+    "hospital": "Behçet Uz Çocuk Hastalıkları Ve Cerrahisi Eğitim Ve Araştırma Hastanesi"
+  },
+  {
+    "name": "Yılmaz Akbaş",
+    "branch": "Çocuk Nörolojisi",
+    "city": "Adana",
+    "type": "Devlet",
+    "hospital": "Adana Yenişehir Devlet Hastanesi"
+  },
+  {
+    "name": "Tuğçe Aksu Uzunhan",
+    "branch": "Çocuk Nörolojisi",
+    "city": "İstanbul",
+    "type": "Özel",
+    "hospital": "Özel Polikinlik"
+  }
+]
