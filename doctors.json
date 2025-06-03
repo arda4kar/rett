@@ -28,13 +28,6 @@
     "hospital": "Çukurova başkent hastanesi"
   },
   {
-    "name": "Serkan Kırma",
-    "branch": "Çocuk Nörolojisi",
-    "city": "Elazığ",
-    "type": "Devlet",
-    "hospital": "Fethi Sekin Şehir Hastanesi"
-  },
-  {
     "name": "Ergun Nacarküçük",
     "branch": "Çocuk Nörolojisi",
     "city": "Bursa",
@@ -411,5 +404,96 @@
     "city": "İstanbul",
     "type": "Özel",
     "hospital": "Özel Polikinlik"
-  }
+  },
+  {
+        "name": "Serkan Kırık",
+        "branch": "Çocuk Nörolojisi",
+        "city": "Elazığ",
+        "type": "Devlet",
+        "hospital": "Fethi Sekin Şehir Hastanesi"
+    },
+    {
+        "name": "Özgür bilgin topçuoğlu",
+        "branch": "Nöroloji",
+        "city": "İstanbul",
+        "type": "Özel",
+        "hospital": "Acıbadem"
+    },
+    {
+        "name": "Fatih Ünal",
+        "branch": "Çocuk Gastroenterolojisi",
+        "city": "Bursa",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Ergün Çil",
+        "branch": "Çocuk Kardiyolojisi",
+        "city": "Bursa",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Keziban Temuçin",
+        "branch": "Ergoterapi",
+        "city": "Bursa",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Ahmet Turgut",
+        "branch": "Pediatri (Çocuk Sağlığı ve Hastalıkları)",
+        "city": "Bursa",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Muhittin Bodur",
+        "branch": "Çocuk Nörolojisi",
+        "city": "Bursa",
+        "type": "Devlet",
+        "hospital": "Uludağ Üniversitesi Tıp Fakültesi"
+    },
+    {
+        "name": "Deniz Ertem",
+        "branch": "Çocuk Gastroenterolojisi",
+        "city": "İstanbul",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Prof. Dr. Rıdvan Akın",
+        "branch": "Çocuk Nörolojisi",
+        "city": "Ankara",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Prof. Dr. Halil İbrahim Aydın",
+        "branch": "Çocuk Metabolizma",
+        "city": "Ankara",
+        "type": "Özel",
+        "hospital": "Başkent"
+    },
+    {
+        "name": "Hakan Erman",
+        "branch": "Çocuk ve Ergen Psikiyatrisi",
+        "city": "Ankara",
+        "type": "Özel",
+        "hospital": ""
+    },
+    {
+        "name": "Prof. Dr. Serdar Ceylaner",
+        "branch": "Tıbbi Genetik",
+        "city": "Ankara",
+        "type": "Özel",
+        "hospital": "İntergen"
+    },
+    {
+        "name": "Dyt. Merve Eşgi",
+        "branch": "Beslenme ve Diyetetik",
+        "city": "İstanbul",
+        "type": "Özel",
+        "hospital": ""
+    }
 ]
